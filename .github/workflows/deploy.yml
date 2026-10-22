@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 concurrency:
-  group: deploy-${{ github.ref }}
+  group: rupacloud-deploy-${{ github.repository }}
   cancel-in-progress: true
 
 jobs:
