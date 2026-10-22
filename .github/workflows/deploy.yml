@@ -22,7 +22,7 @@ jobs:
       - name: 🚀 Trigger RupaCloud Build & Deploy
         env:
           DEPLOY_TOKEN: ${{ secrets.RUPACLOUD_DEPLOY_TOKEN }}
-          ORDER_ID: '38129bb4-d846-4e41-8587-4620e4bf9210'
+          ORDER_ID: '8a0bf1bd-6d71-492a-8f79-2ff87c8a22c1'
           BASE_DOMAIN: 'rupacloud.web.id'
         run: |
           bash << 'EOF'
